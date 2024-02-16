@@ -2,7 +2,7 @@ import express from "express";
 import multer from "multer";
 import { nanoid } from "nanoid";
 import verifyToken from "../Middlewares/auth.js";
-import getBlogs from "../Controllers/getblogs.js";
+import getBlogs from "../Controllers/getBlogs.js";
 import getBlogByUrl from "../Controllers/getBlogByUrl.js";
 import deleteBlogById from "../Controllers/deleteBlogById.js";
 import createBlogPost from "../Controllers/createBlogPost.js";
