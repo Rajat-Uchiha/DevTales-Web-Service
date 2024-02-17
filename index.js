@@ -42,5 +42,5 @@ app.use(blog_router);
 
 //IF USER MAKE ANY OTHER REQUEST
 app.use((req, res) => {
-  res.status(404).send("PAGE NOT FOUND from index.js");
+  res.sendFile(path.join(__dirname, "/404.html"));
 });
